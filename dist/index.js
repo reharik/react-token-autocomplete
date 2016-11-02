@@ -274,7 +274,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	          handleRemove: _this.deleteValue });
 	      });
 	    }, _this.renderProcessing = function () {
-	      return _this.props.processing ? _react2.default.createElement('div', { ref: 'processing', style: _this.props.style.processing }) : null;
+	      return _this.props.processing ? _react2.default.createElement('div', { className: _styles2.default.processing, style: _this.props.style.processing }) : null;
 	    }, _this.renderFakePlaceholder = function () {
 	      return _this.shouldShowFakePlaceholder() ? _react2.default.createElement(
 	        'div',
@@ -390,7 +390,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	  onAdd: _react2.default.PropTypes.func,
 	  onRemove: _react2.default.PropTypes.func
 	};
-	TokenAutocomplete.contextTypes = {};
 	TokenAutocomplete.defaultProps = {
 	  //initial state
 	  options: [],

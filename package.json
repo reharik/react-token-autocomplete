@@ -20,8 +20,6 @@
   "dependencies": {
     "immutable": "^3.7.5",
     "lodash": "^3.10.1",
-    "peters-toolbelt": "^0.3.9",
-    "radium": "^0.13.8",
     "react": "^0.13.3",
     "underscore.string": "^3.2.1"
   },

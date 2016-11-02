@@ -57,9 +57,6 @@ export default class TokenAutocomplete extends React.Component {
     onRemove: React.PropTypes.func
   }
 
-  static contextTypes = {
-  }
-
   static defaultProps = {
     //initial state
     options: [],
@@ -312,7 +309,7 @@ export default class TokenAutocomplete extends React.Component {
   }
 
   renderProcessing = () => {
-    return this.props.processing ? <div ref='processing' style={this.props.style.processing}/> : null;
+    return this.props.processing ? <div className={ styles.processing } style={this.props.style.processing}/> : null;
   }
 
   renderFakePlaceholder = () => {
@@ -355,7 +352,5 @@ export default class TokenAutocomplete extends React.Component {
         {this.renderOptionsDropdown()}
       </div>
     );
-
   }
-
 }
