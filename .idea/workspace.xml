@@ -2,25 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97b4979e-e707-4fb9-8cef-1c7408b8243c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_tests/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TokenAutocomplete/index.jsx" afterPath="$PROJECT_DIR$/src/index.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TokenAutocomplete/options/index.jsx" afterPath="$PROJECT_DIR$/src/options/index.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TokenAutocomplete/options/option/index.jsx" afterPath="$PROJECT_DIR$/src/options/option/index.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TokenAutocomplete/options/option/spec.js" afterPath="$PROJECT_DIR$/src/options/option/spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TokenAutocomplete/options/option/styles.css" afterPath="$PROJECT_DIR$/src/options/option/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TokenAutocomplete/options/spec.js" afterPath="$PROJECT_DIR$/src/options/spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TokenAutocomplete/options/styles.css" afterPath="$PROJECT_DIR$/src/options/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TokenAutocomplete/spec.js" afterPath="$PROJECT_DIR$/src/spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TokenAutocomplete/styles.css" afterPath="$PROJECT_DIR$/src/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TokenAutocomplete/token/index.jsx" afterPath="$PROJECT_DIR$/src/token/index.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TokenAutocomplete/token/spec.js" afterPath="$PROJECT_DIR$/src/token/spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TokenAutocomplete/token/styles.css" afterPath="$PROJECT_DIR$/src/token/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/_utils/keyCodes.js" afterPath="$PROJECT_DIR$/src/utils/keyCodes.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.cz.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.release.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample.env" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample.env-production" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/.pre-push" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/build.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/dev.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/gh-pages.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/install.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/lint.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/report-coverage.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/setup-hooks.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/options/option/spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/options/spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/token/spec.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.js" afterPath="$PROJECT_DIR$/dist/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="react-token-autocomplete.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,8 +91,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+            <state relative-caret-position="105">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -96,7 +101,7 @@
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
+            <state relative-caret-position="459">
               <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
               <folding />
             </state>
@@ -123,20 +128,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/build.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="-240">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
@@ -307,6 +302,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="options" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="option" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-token-autocomplete" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-token-autocomplete" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -391,12 +408,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478095784664</updated>
-      <workItem from="1478095786203" duration="6837000" />
+      <workItem from="1478095786203" duration="7302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6837000" />
+    <option name="totallyTimeSpent" value="7302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="0" width="1922" height="1080" extended-state="6" />
@@ -473,18 +490,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1478095760276" expanded="true" signature="142:163" ph="{...}" />
-            <marker date="1478095760276" expanded="true" signature="165:176" ph="{...}" />
-            <marker date="1478095760276" expanded="true" signature="320:338" ph="{...}" />
-            <marker date="1478095760276" expanded="true" signature="449:475" ph="{...}" />
-            <marker date="1478095760276" expanded="true" signature="609:635" ph="{...}" />
-            <marker date="1478095760276" expanded="true" signature="710:736" ph="{...}" />
-            <marker date="1478095760276" expanded="true" signature="854:968" ph="{...}" />
-            <marker date="1478095760276" expanded="true" signature="1153:1267" ph="{...}" />
-            <marker date="1478095760276" expanded="true" signature="1362:1461" ph="{...}" />
-            <marker date="1478095760276" expanded="true" signature="1871:1961" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -604,7 +610,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
+        <state relative-caret-position="459">
           <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
           <folding />
         </state>
@@ -612,15 +618,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="-240">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
