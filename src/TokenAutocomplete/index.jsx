@@ -351,8 +351,8 @@ export default class TokenAutocomplete extends React.Component {
   render() {
     return (
       <div ref="wrapper" style={this.props.style.wrapper}>
+        {this.renderTokens()}
         <div ref="inputWrapper" onClick={this.focus} style={this.props.style.inputWrapper}>
-          {this.renderTokens()}
           {this.renderInput()}
           {this.renderProcessing()}
           {this.renderDropdownIndicator()}
