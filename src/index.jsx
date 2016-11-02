@@ -1,11 +1,11 @@
 import React from 'react';
-import OptionList from './options';
-import Token from './token';
+import OptionList from './options/index.jsx';
+import Token from './token/index.jsx';
 import {include, difference, filter, noop, identity, isArray, isUndefined, isEmpty} from 'lodash';
 import {contains} from 'underscore.string';
 import Immutable from 'immutable';
 import styles from './styles.css';
-import keyCodes from 'utils/keyCodes';
+import keyCodes from './utils/keyCodes';
 
 
 function defaultValuesPropType(props, propName, component) {

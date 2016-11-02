@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "build": "webpack -p --progress --profile --colors",
     "test": "make lint && make test"
   },
   "repository": {
@@ -63,6 +64,10 @@
     "mocha": "^2.3.0",
     "mocha-babel": "^3.0.0",
     "path": "^0.11.14",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-import": "^8.1.2",
+    "postcss-loader": "^0.9.1",
+    "precss": "^1.4.0",
     "raw-loader": "^0.5.1",
     "react-hot-loader": "^1.3.0",
     "rewire": "^2.3.4",

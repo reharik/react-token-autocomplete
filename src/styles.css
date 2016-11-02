@@ -1,5 +1,5 @@
   .wrapper {
-    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-size: 13px;
     position: relative
   }
@@ -11,7 +11,7 @@
     display: inline-block;
     font-size: 13px;
     min-height: 25px;
-    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   }
   .inputWrapper {
     border: 1px solid #999;

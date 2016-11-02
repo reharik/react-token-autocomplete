@@ -5,18 +5,12 @@ const validate = require('webpack-validator');
 const combineLoaders = require('webpack-combine-loaders');
 
 var webpackConfig = {
-  entry: './src',
+  entry: './src/index.jsx',
   output: {
     path: path.join(__dirname, '/dist'),
     filename: 'index.js',
     library: 'TokenAutocomplete',
     libraryTarget: 'umd'
-  },
-  resolve: {
-    alias: {
-      utils: path.join(__dirname, 'src/_utils')
-    },
-    modulesDirectories: ['node_modules']
   },
   module: {
     loaders: [
@@ -24,16 +18,16 @@ var webpackConfig = {
         test: /\.jsx?$/,
         loader: 'babel',
         include: [
-          path.resolve(__dirname, 'src/TokenAutocomplete')
+          path.resolve(__dirname, 'src')
         ]
       },
       {
         test: /\.css$/,
         include: [
-          path.resolve(__dirname, 'src/TokenAutocomplete'),
-          path.resolve(__dirname, 'src/TokenAutocomplete/options'),
-          path.resolve(__dirname, 'src/TokenAutocomplete/options/option'),
-          path.resolve(__dirname, 'src/TokenAutocomplete/token')
+          path.resolve(__dirname, 'src'),
+          path.resolve(__dirname, 'src/options'),
+          path.resolve(__dirname, 'src/options/option'),
+          path.resolve(__dirname, 'src/token')
         ],
         loader: combineLoaders([
           {
@@ -64,6 +58,10 @@ var webpackConfig = {
       }),
       require('postcss-cssnext')()
     ];
+  },
+
+  resolve: {
+    extensions: ['', '.js', '.jsx']
   }
 };
 
