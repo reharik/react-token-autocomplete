@@ -370,6 +370,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}(_react2.default.Component);
 
 	TokenAutocomplete.displayName = 'TokenAutocomplete';
+
 	TokenAutocomplete.propTypes = {
 	  //initial state
 	  options: _react2.default.PropTypes.array,
@@ -390,6 +391,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  onAdd: _react2.default.PropTypes.func,
 	  onRemove: _react2.default.PropTypes.func
 	};
+
 	TokenAutocomplete.defaultProps = {
 	  //initial state
 	  options: [],
@@ -410,6 +412,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  onAdd: _lodash.noop,
 	  onRemove: _lodash.noop
 	};
+
 	exports.default = TokenAutocomplete;
 
 /***/ },

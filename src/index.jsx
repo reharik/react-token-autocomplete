@@ -32,51 +32,7 @@ function tresholdPropType(props, propName, component) {
   return React.PropTypes.number(props, propName, component);
 }
 
-export default class TokenAutocomplete extends React.Component {
-
-  static displayName = 'TokenAutocomplete';
-
-  static propTypes = {
-    //initial state
-    options: React.PropTypes.array,
-    placeholder: React.PropTypes.string,
-    treshold: tresholdPropType,
-    defaultValues: defaultValuesPropType,
-    processing: React.PropTypes.bool,
-    focus: React.PropTypes.bool,
-    //behaviour
-    filterOptions: React.PropTypes.bool,
-    simulateSelect: React.PropTypes.bool,
-    limitToOptions: React.PropTypes.bool,
-    parseOption: React.PropTypes.func,
-    parseToken: React.PropTypes.func,
-    parseCustom: React.PropTypes.func,
-    //handles
-    onInputChange: React.PropTypes.func,
-    onAdd: React.PropTypes.func,
-    onRemove: React.PropTypes.func
-  }
-
-  static defaultProps = {
-    //initial state
-    options: [],
-    defaultValues: [],
-    placeholder: 'add new tag',
-    treshold: 0,
-    focus: false,
-    processing: false,
-    //behaviour
-    filterOptions: true,
-    simulateSelect: false,
-    limitToOptions: false,
-    parseOption: identity,
-    parseToken: identity,
-    parseCustom: identity,
-    //handles
-    onInputChange: noop,
-    onAdd: noop,
-    onRemove: noop
-  }
+class TokenAutocomplete extends React.Component {
 
   state = {
     focused: false,
@@ -354,3 +310,50 @@ export default class TokenAutocomplete extends React.Component {
     );
   }
 }
+
+
+TokenAutocomplete.displayName = 'TokenAutocomplete';
+
+TokenAutocomplete.propTypes = {
+  //initial state
+  options: React.PropTypes.array,
+  placeholder: React.PropTypes.string,
+  treshold: tresholdPropType,
+  defaultValues: defaultValuesPropType,
+  processing: React.PropTypes.bool,
+  focus: React.PropTypes.bool,
+  //behaviour
+  filterOptions: React.PropTypes.bool,
+  simulateSelect: React.PropTypes.bool,
+  limitToOptions: React.PropTypes.bool,
+  parseOption: React.PropTypes.func,
+  parseToken: React.PropTypes.func,
+  parseCustom: React.PropTypes.func,
+  //handles
+  onInputChange: React.PropTypes.func,
+  onAdd: React.PropTypes.func,
+  onRemove: React.PropTypes.func
+}
+
+TokenAutocomplete.defaultProps = {
+  //initial state
+  options: [],
+  defaultValues: [],
+  placeholder: 'add new tag',
+  treshold: 0,
+  focus: false,
+  processing: false,
+  //behaviour
+  filterOptions: true,
+  simulateSelect: false,
+  limitToOptions: false,
+  parseOption: identity,
+  parseToken: identity,
+  parseCustom: identity,
+  //handles
+  onInputChange: noop,
+  onAdd: noop,
+  onRemove: noop
+}
+
+export default TokenAutocomplete;
