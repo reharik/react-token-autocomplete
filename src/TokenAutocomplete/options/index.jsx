@@ -1,14 +1,9 @@
 import React from 'react';
-import radium from 'radium';
-import styles from './styles';
+import styles from './styles.css';
 import {noop, map} from 'lodash';
 import keyCodes from 'utils/keyCodes';
 import Option from './option';
-import {decorators} from 'peters-toolbelt';
-const {StyleDefaults} = decorators;
 
-@radium
-@StyleDefaults(styles)
 export default class OptionList extends React.Component {
 
   static displayName = 'Option List';

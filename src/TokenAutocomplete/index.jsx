@@ -1,14 +1,11 @@
 import React from 'react';
-import radium from 'radium';
 import OptionList from './options';
 import Token from './token';
 import {include, difference, filter, noop, identity, isArray, isUndefined, isEmpty} from 'lodash';
 import {contains} from 'underscore.string';
 import Immutable from 'immutable';
-import styles from './styles';
+import styles from './styles.css';
 import keyCodes from 'utils/keyCodes';
-import {decorators} from 'peters-toolbelt';
-const {StyleDefaults} = decorators;
 
 
 function defaultValuesPropType(props, propName, component) {
@@ -35,8 +32,6 @@ function tresholdPropType(props, propName, component) {
   return React.PropTypes.number(props, propName, component);
 }
 
-@radium
-@StyleDefaults(styles)
 export default class TokenAutocomplete extends React.Component {
 
   static displayName = 'TokenAutocomplete';
