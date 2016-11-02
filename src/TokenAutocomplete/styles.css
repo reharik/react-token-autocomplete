@@ -1,58 +1,55 @@
   .wrapper {
-    fontFamily: '"Helvetica Neue"; "Helvetica"; "Arial"; sans-serif';
-    fontSize: 13;
-    position: 'relative'
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 13px;
+    position: relative
   }
   .input {
-    verticalAlign: 'middle';
-    border: 'none';
-    cursor: 'default';
-    flexGrow: 1;
-    display: 'inline-block';
-    fontSize: 13;
-    minHeight: 25;
-    fontFamily: '"Helvetica Neue"; "Helvetica"; "Arial"; sans-serif';
-    ':focus': {
-      outline: 0
-    }
+    vertical-align: middle;
+    border: none;
+    cursor: default;
+    flex-grow: 1;
+    display: inline-block;
+    font-size: 13px;
+    min-height: 25px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
   }
   .inputWrapper {
-    border: '1px solid #999';
-    borderRadius: 2;
-    padding: '1px 4px';
-    display: 'flex';
-    fontWeight: 400;
-    overflow: 'hidden';
-    flexWrap: 'wrap';
-    minHeight: 26
+    border: 1px solid #999;
+    border-radius: 2px;
+    padding: 1px 4px;
+    display: flex;
+    font-weight: 400;
+    overflow: hidden;
+    flex-wrap: wrap;
+    min-height: 26px
   }
   .processing {
-    width: 18;
-    height: 18;
-    marginTop: 3;
-    position: 'relative';
-    borderRight: '2px solid #ddd';
-    borderLeft: '2px solid #ddd';
-    borderBottom: '2px solid #ddd';
-    borderTop: '2px solid #888';
-    borderRadius: '100%'
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+    position: relative;
+    border-right: 2px solid #ddd;
+    border-left: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    border-top: 2px solid #888;
+    border-radius: 100%
   }
   .dropdownIndicator {
-      position: 'absolute';
+      position: absolute;
       height: 0;
       width: 0;
-      borderTop: '7px solid #999';
-      borderBottom: '7px solid transparent';
-      borderRight: '5px solid transparent';
-      borderLeft: '5px solid transparent';
-      top: 12;
-      right: 10
+      border-top: 7px solid #999;
+      border-bottom: 7px solid transparent;
+      border-right: 5px solid transparent;
+      border-left: 5px solid transparent;
+      top: 12px;
+      right: 10px
   }
   .fakePlaceholder {
-    fontSize: 13;
-    paddingLeft: 6;
-    paddingTop: 5;
-    color: '#aaa';
-    cursor: 'default'
+    font-size: 13px;
+    padding-left: 6px;
+    padding-top: 5px;
+    color: #aaa;
+    cursor: default
   }
 

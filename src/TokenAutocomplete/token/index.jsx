@@ -34,8 +34,7 @@ export default class Token extends React.Component {
     return (
       <div
         style={this.props.style.removeBtn}
-        ref="removeBtn"
-        className='token-remove-btn'
+        className={ styles.removeBtn + ' token-remove-btn' }
         onClick={this.onRemoveBtnClick}>
         x
       </div>
@@ -47,8 +46,8 @@ export default class Token extends React.Component {
     const {style} = this.props;
 
     return (
-      <div ref="wrapper" style={[style.wrapper, this.props.fullWidth && style.wrapperFullWidth]}>
-        <div ref="value" style={style.value}>
+      <div className={ styles.wrapper } style={[style.wrapper, this.props.fullWidth && style.wrapperFullWidth]}>
+        <div className={ styles.value } style={style.value}>
           { this.props.parse(this.props.value) }
         </div>
         { !this.props.fullWidth ? this.renderRemoveBtn() : null}

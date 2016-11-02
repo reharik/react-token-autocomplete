@@ -1,7 +1,7 @@
   .wrapper {
-    padding: 5;
-    cursor: 'default'
+    padding: 5px;
+    cursor: default
   }
   .selected {
-    background: '#d4d4d4'
+    background: #d4d4d4
   }

@@ -289,7 +289,7 @@ export default class TokenAutocomplete extends React.Component {
           handleAddSelected: this.addSelectedValue,
           parseOption: this.props.parseOption
       };
-      return <OptionList ref="options" {...passProps}/>;
+      return <OptionList className={ styles.options } {...passProps}/>;
     } else {
       return null;
     }
@@ -301,7 +301,7 @@ export default class TokenAutocomplete extends React.Component {
       return (
         <Token
           key={key}
-          ref={'token' + key}
+          className={ styles['token' + key]}
           index={key}
           value={value}
           fullWidth={this.props.simulateSelect}
@@ -318,7 +318,7 @@ export default class TokenAutocomplete extends React.Component {
   renderFakePlaceholder = () => {
     return this.shouldShowFakePlaceholder()
       ? (<div
-          ref="fakePlaceholder"
+      className={ styles.fakePlaceholder }
           style={this.props.style.fakePlaceholder}>
             {this.props.placeholder}
          </div>)
@@ -333,21 +333,21 @@ export default class TokenAutocomplete extends React.Component {
           onChange={this.onInputChange}
           value={this.state.inputValue}
           placeholder={this.props.placeholder}
-          ref="input"/>)
+          className={ styles.input } />)
       : this.renderFakePlaceholder();
   }
 
   renderDropdownIndicator = () => {
     return this.props.simulateSelect
-      ? <div ref="dropdownIndicator" style={this.props.style.dropdownIndicator} />
+      ? <div className={ styles.dropdownIndicator } style={this.props.style.dropdownIndicator} />
       : null;
   }
 
   render() {
     return (
-      <div ref="wrapper" style={this.props.style.wrapper}>
+      <div className={ styles.wrapper } style={this.props.style.wrapper}>
         {this.renderTokens()}
-        <div ref="inputWrapper" onClick={this.focus} style={this.props.style.inputWrapper}>
+        <div className={ styles.inputWrapper } onClick={this.focus} style={this.props.style.inputWrapper}>
           {this.renderInput()}
           {this.renderProcessing()}
           {this.renderDropdownIndicator()}

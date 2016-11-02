@@ -65,7 +65,7 @@ export default class OptionList extends React.Component {
     return (
       <Option
         key={index}
-        ref={'option' + index}
+        className={ styles['option' + index]}
         index={index}
         parse={this.parseOption}
         handleClick={this.props.handleAddSelected}
@@ -111,14 +111,14 @@ export default class OptionList extends React.Component {
   }
 
   renderEmptyInfo() {
-    return <div ref="emptyInfo" style={this.props.style.emptyInfo}>{this.props.emptyInfo}</div>;
+    return <div className={ styles.emptyInfo } style={this.props.style.emptyInfo}>{this.props.emptyInfo}</div>;
   }
 
   render() {
     const displayEmptyInfo = !this.props.options.length;
 
     return (
-      <div ref="wrapper" style={this.props.style.wrapper}>
+      <div className={ styles.wrapper } style={this.props.style.wrapper}>
         {displayEmptyInfo ? this.renderEmptyInfo() : this.renderOptions() }
       </div>
 
